@@ -39,3 +39,8 @@ otus_hw6_base/bin/Debug/net5.0/Npgsql.dll
 otus_hw6_base/bin/Debug/net5.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
 otus_hw6_base/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
 otus_hw6_base/obj/Debug/net5.0/otus_hw6_base.csproj.CopyComplete
+otus_hw6_base/.config/dotnet-tools.json
+otus_hw6_base/obj/otus_hw6_base.csproj.EntityFrameworkCore.targets
+otus_hw6_base/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+.gitignore
+otus_hw6_base/bin/Debug/net5.0/Humanizer.dll
