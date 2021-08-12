@@ -36,8 +36,21 @@ namespace otus_hw6_base
                     Console.WriteLine($"Сумма {transaction.Ammount}, Описание {transaction.Description}, Дата {transaction.DateTime}");
                 }
                 Console.WriteLine(Environment.NewLine);
+
+                AddTrans(context);
+                
                 
             }
+
+            
+        }
+        public static void AddTrans(sberContext context)
+        {
+            Console.WriteLine("Adding new transaction");
+            var trans = new Transaction{Ammount = 5000, Description = "Оплата посылки из CDEC", DateTime = DateTime.Now, Id = 4, AccountId = 1};
+            context.Transactions.Add(trans);
+            context.SaveChanges();
+            Console.WriteLine("New transaction was added");
         }
     }
 }
