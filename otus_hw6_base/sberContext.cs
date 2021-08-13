@@ -122,10 +122,6 @@ namespace otus_hw6_base
                     .HasForeignKey(d => d.AccountId)
                     .HasConstraintName("account_id_key");
             });
-
-            OnModelCreatingPartial(modelBuilder);
         }
-
-        partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
     }
 }
