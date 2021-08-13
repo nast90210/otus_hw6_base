@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace otus_hw6_base
 {
-    public partial class sberContext : DbContext
+    public class sberContext : DbContext
     {
         public sberContext()
         {
